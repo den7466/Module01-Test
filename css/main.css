@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: #1d1d1f;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+p, ul, ol {
+    font-size: 19px;
+    line-height: 25px;
+    background-color: #fbfbfd;
+}
+
+q {
+    color: lightslategray;
+    font-style: italic;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+    transition-property: color, margin-left;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+a:hover {
+    color: #99ceff;
+    text-decoration: underline;
+    margin-left: 5px;
+}
